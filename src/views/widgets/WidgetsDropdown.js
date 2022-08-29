@@ -16,7 +16,7 @@ import { cilArrowBottom, cilArrowTop, cilOptions } from '@coreui/icons'
 const WidgetsDropdown = () => {
   return (
     <CRow>
-      <CCol sm={6} lg={3}>
+      {/* <CCol sm={6} lg={3}>
         <CWidgetStatsA
           className="mb-4"
           color="primary"
@@ -102,33 +102,33 @@ const WidgetsDropdown = () => {
             />
           }
         />
-      </CCol>
-      <CCol sm={6} lg={3}>
+      </CCol> */}
+      {/* <CCol sm={6} lg={3}> 
         <CWidgetStatsA
-          className="mb-4"
-          color="info"
-          value={
-            <>
-              $6.200{' '}
-              <span className="fs-6 fw-normal">
-                (40.9% <CIcon icon={cilArrowTop} />)
-              </span>
-            </>
-          }
-          title="Income"
-          action={
-            <CDropdown alignment="end">
-              <CDropdownToggle color="transparent" caret={false} className="p-0">
-                <CIcon icon={cilOptions} className="text-high-emphasis-inverse" />
-              </CDropdownToggle>
-              <CDropdownMenu>
-                <CDropdownItem>Action</CDropdownItem>
-                <CDropdownItem>Another action</CDropdownItem>
-                <CDropdownItem>Something else here...</CDropdownItem>
-                <CDropdownItem disabled>Disabled action</CDropdownItem>
-              </CDropdownMenu>
-            </CDropdown>
-          }
+          // className="mb-4"
+          // color="info"
+          // value={
+          //   <>
+          //     $6.200{' '}
+          //     <span className="fs-6 fw-normal">
+          //       (40.9% <CIcon icon={cilArrowTop} />)
+          //     </span>
+          //   </>
+          // }
+          // title="Income"
+          // action={
+          //   <CDropdown alignment="end">
+          //     <CDropdownToggle color="transparent" caret={false} className="p-0">
+          //       <CIcon icon={cilOptions} className="text-high-emphasis-inverse" />
+          //     </CDropdownToggle>
+          //     <CDropdownMenu>
+          //       <CDropdownItem>Action</CDropdownItem>
+          //       <CDropdownItem>Another action</CDropdownItem>
+          //       <CDropdownItem>Something else here...</CDropdownItem>
+          //       <CDropdownItem disabled>Disabled action</CDropdownItem>
+          //     </CDropdownMenu>
+          //   </CDropdown>
+          // }
           chart={
             <CChartLine
               className="mt-3 mx-3"
@@ -187,10 +187,10 @@ const WidgetsDropdown = () => {
               }}
             />
           }
-        />
+        /> 
       </CCol>
       <CCol sm={6} lg={3}>
-        <CWidgetStatsA
+        {/* <CWidgetStatsA
           className="mb-4"
           color="warning"
           value={
@@ -260,9 +260,9 @@ const WidgetsDropdown = () => {
               }}
             />
           }
-        />
-      </CCol>
-      <CCol sm={6} lg={3}>
+        /> */}
+      {/* </CCol> */}
+      {/* <CCol sm={6} lg={3}>
         <CWidgetStatsA
           className="mb-4"
           color="danger"
@@ -353,7 +353,7 @@ const WidgetsDropdown = () => {
             />
           }
         />
-      </CCol>
+      </CCol> */}
     </CRow>
   )
 }
